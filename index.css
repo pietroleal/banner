@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 80vw;
+    max-width: 1200px;
+    height: 100vh;
+    background-color: bisque;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.banner-estatico{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*tablets*/
+
+@media(max-width:768px){
+    main{
+        max-width: 90vw;
+        padding: 15px;
+    }
+}
+
+/*celulares*/
+
+@media(max-width:480px){
+    main{
+        width: 95vw;
+        padding: 10px;
+    }
+}
