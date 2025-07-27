@@ -1,4 +1,4 @@
-body{
+lowbody{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ main{
     width: 80vw;
     max-width: 1200px;
     height: 100vh;
-    background-color: cyan;
+    background-color: red;
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
